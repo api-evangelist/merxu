@@ -1,4 +1,16 @@
 aid: merxu
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/merxu.png
 name: merXu
 description: 'merXu is a company surfaced as a portfolio company of accel, point-nine, prosus-ventures
   and added to the API Evangelist network as a stub for enrichment. Sector: ecommerce. This profile is
@@ -14,7 +26,9 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-status: defunct-domain-parked
+x-status-note: 'Enrichment 2026-07-20 found merxu.com no longer serving the marketplace: https://merxu.com/en/about/ returns a Netim domain-parking placeholder (domain registered/parked with Netim, TLS chain fails verification). No live developer/API surface; company appears defunct/acquired. No provider artifacts to harvest.'
 tags:
 - Company
 - Ecommerce
@@ -25,5 +39,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/merxu-domain-security.yml
 - type: Website
   url: https://merxu.com/en/about/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
