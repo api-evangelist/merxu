@@ -31,6 +31,9 @@ x-status: defunct-domain-parked
 x-status-note: 'Enrichment 2026-07-20 found merxu.com no longer serving the marketplace: https://merxu.com/en/about/ returns a Netim domain-parking placeholder (domain registered/parked with Netim, TLS chain fails verification). No live developer/API surface; company appears defunct/acquired. No provider artifacts to harvest.'
 tags:
 - Company
+- E-Commerce
+tags_raw:
+- Company
 - Ecommerce
 apis: []
 maintainers:
