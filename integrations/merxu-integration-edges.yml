@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/merxu/integrations
+- https://n8n.io/integrations/merxu/
+- https://composio.dev/toolkits/merxu
+- https://monid.ai/tools/merxu
+checked:
+- https://composio.dev/toolkits/merxu
+- https://monid.ai/tools/merxu
+- https://n8n.io/integrations/merxu/
+- https://zapier.com/apps/merxu/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
